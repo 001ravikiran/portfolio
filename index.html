@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ravikiran Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img class="profile" src="./assets/images/profile.JPEG"  width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ravikiran">Ravikiran R</h1>
+
+          <p class="title">FullStack developer</p>
+          <a href="https://drive.google.com/file/d/1AwkG1667pnwBi0ZOzkPFRJjSt3y6PK9f/view?usp=drivesdk" target="_blank" class="btn get-resume-btn">
+              Get Resume
+          </a>
+
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:001ravikiran@gmail.com" class="contact-link">001ravikiran@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 9080398995" class="contact-link">+91 9080398995</a>
+            </div>
+
+          </li>
+
+         
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Coimbatore, Punjaipuliampatti</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/001ravikiran" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/001ravikiran/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+         
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>education</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+                  <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m a Full Stack Developer specializing in creating dynamic and scalabale web applications. With expertise
+            in front-end fundamentals like (HTML, CSS, JavaScript, and React,) and back-end framework Django, I build
+            rich and responsive user experiences. Working with databases such as (PYTHON/MySQL) .I have excellent
+            problem-solving skills, and I specialize in writing clean, optimized code, and building RESTful APIs.
+            Passionate about learning new </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Skills</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img class="img" src="./assets/images/icon-html.svg" >
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img class="img" src="./assets/images/icon-css.svg" >
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" >
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img class="img" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" >
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/172px-Python-logo-notext.svg.png">
+              </a>
+            </li>
+
+             <li class="clients-item">
+              <a href="#">
+                <img class="img" src="./assets/images/social.png" >
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img class="img" src="./assets/images/programing.png" >
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="education" data-page="education">
+
+        <header>
+          <h2 class="h2 article-title">education</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">BACHELOR DEGREE</h4>
+
+              <span>2021 — 2024</span>
+
+              <p class="timeline-text">
+               KG college of arts and science
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">HIGHER SECONDARY CERTIFICATE</h4>
+
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+               SRC Memorial Matric Hr. Sec. School
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SECONDARY SCHOOL LEAVING CERTIFICATE</h4>
+
+              <span>2018 — 2019</span>
+
+              <p class="timeline-text">
+                               SRC Memorial Matric Hr. Sec. School
+
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <!-- <div class="project-item-icon-box"> -->
+                    <!-- <ion-icon name="eye-outline"></ion-icon> -->
+                  <!-- </div> -->
+
+                  <img src="./assets/images/Weather.jpeg"  loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Weather App using Django</h3>
+
+                <p class="project-category"><b>Tools used:</b> Django, HTML, CSS, Open Weather API <a href="https://github.com/001ravikiran/Weather-app-using-Django.git">Github link</a></p>
+                
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <!-- <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div> -->
+
+                  <img src="./assets/images/e-commerce.jpeg"  loading="lazy">
+                </figure>
+
+                <h3 class="project-title">E-Commerce Website</h3>
+
+                <p class="project-category"><b>Tools used:</b> HTML, CSS, JavaScript, Mock API <a href="https://github.com/001ravikiran/E-commerce-website.git">Github link</a></p>
+                
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+       
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
